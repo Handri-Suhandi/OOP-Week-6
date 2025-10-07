@@ -4,12 +4,12 @@ public class Voucher extends Barang{
     private double pajak;
     public static int total = 0;
 
-    public voucher(int id, String nama, double hagra, int stok, double pajak){
+    public Voucher(int id, String nama, double harga, int stok, double pajak){
         super(id, nama, harga, stok);
         this.pajak = pajak;
     }
 
-    public double Pajak(){
+    public double getPajak(){
         return pajak;
     }
 

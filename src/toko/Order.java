@@ -7,13 +7,13 @@ public class Order {
     private int jumlah;
     public static int total = 0;
 
-    public order(String id, Voucher voucher, int jumlah){
+    public Order(String id, Voucher voucher, int jumlah){
         this.id = id;
-        this,voucher = voucher;
+        this.voucher = voucher;
         this.jumlah = jumlah;
     }
 
-    public order(String id, Handphone handphone, int jumlah){
+    public Order(String id, Handphone handphone, int jumlah){
         this.id = id;
         this.handphone = handphone;
         this.jumlah = jumlah;
